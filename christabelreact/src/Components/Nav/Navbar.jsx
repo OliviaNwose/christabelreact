@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        Christabel Achiever's Summit
+       Christabel Achiever's Summit
       </div>
       <Burger />
     </Nav>
