@@ -18,14 +18,18 @@ justify-content:space-between;
     padding: 15px 0;
 }
 `
+const Img = styled.img`
+height:25px;
+width:25px;
+margin-right: 5px;
+`
 
 const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
             <div className='nav-brand'>
-                    <img src="/images/logogo.png" alt=''/>
-                    Christabel Achiever's Summit
+                    <Img src="/images/logogo.png" alt=""/> Christabel Achiever's Summit
             </div>
       </div>
       <Burger />

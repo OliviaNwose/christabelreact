@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Button from 'react-bootstrap/Button';
 
 const Ul = styled.ul`
     list-style:none;
