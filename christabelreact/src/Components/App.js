@@ -4,6 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Firstsect from "./First-section/Firstsect";
 import Secondsect from "./Second-section/Secondsect";
+import Footersect from "./Footer-section/Footersect";
+import Thirdsect from "./Third-section/Thirdsect";
+
+
 
 function App() {
   return (
@@ -11,6 +15,8 @@ function App() {
       <Navbar />
       <Firstsect />
       <Secondsect />
+      <Thirdsect />
+      <Footersect />
     </div>
   );
 }

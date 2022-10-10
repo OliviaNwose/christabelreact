@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Ul = styled.ul`
     list-style:none;

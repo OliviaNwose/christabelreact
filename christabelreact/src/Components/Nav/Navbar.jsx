@@ -13,6 +13,9 @@ border-bottom: 2px solid #f1f1f1;
 padding: 0 20px;
 display:flex;
 justify-content:space-between;
+position: sticky;
+top: 0;
+background-color:white;
 
 .logo{
     padding: 15px 0;
