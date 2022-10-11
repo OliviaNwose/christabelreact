@@ -7,7 +7,7 @@ import { faTwitter,faFacebookF, faInstagram} from '@fortawesome/free-brands-svg-
 
 const Footer = styled.div`
 text-align: center;
-margin-top: 100vh;
+// margin-top: 100vh;
 background-color:green;
 color:white;
 padding-top:20px;
@@ -30,7 +30,7 @@ export default function Footersect() {
   return (
     <Footer>
       <Container>
-                <div><h5><b>Contact Us</b></h5></div>
+                <div><h2><b>Contact Us</b></h2></div>
                 <Footicons>
                     <div className="icon"><FontAwesomeIcon icon={faEnvelope} /></div>
                     <div className="icon"><FontAwesomeIcon icon={faFacebookF} /></div>

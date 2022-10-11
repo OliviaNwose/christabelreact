@@ -45,6 +45,14 @@ padding-top:2%;
   padding-top:20px
   } 
 `; 
+// const Mission = styled.div`
+// background-image:url(/images/grass.jpg);
+// background-size: cover;
+// height:300px;
+// color:white;
+// margin-top:20px;
+
+// `;
 
 export default function Secondsect() {
   return (
